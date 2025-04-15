@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "^6.4.13",
+    "@mikro-orm/migrations": "^6.4.13",
+    "@mikro-orm/sqlite": "^6.4.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
